@@ -1,0 +1,20 @@
+#basic libraries for data manipulation and analysis
+numpy
+pandas
+
+
+#face recognition lib
+scikit-learn
+dlib-bin
+
+#ageitgey's face_recognition library
+git+https://github.com/ageitgey/face_recognition_models
+setuptools<70.0.0  # to avoid compatibility issues with dlib
+
+supabase
+bcrypt
+
+segno #for qr code generation
+pillow #for image processing
+
+streamlit #for web app development

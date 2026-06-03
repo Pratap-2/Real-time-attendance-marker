@@ -3,5 +3,20 @@ name = "ai-intelligence"
 version = "0.1.0"
 description = "making project for my resume"
 readme = "README.md"
-requires-python = "==3.12"
-dependencies = []
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "bcrypt>=5.0.0",
+    "dlib-bin>=20.0.1",
+    "face-recognition-models",
+    "numpy>=2.4.6",
+    "pandas>=3.0.3",
+    "pillow>=12.2.0",
+    "scikit-learn>=1.9.0",
+    "segno>=1.6.6",
+    "setuptools<70.0.0",
+    "streamlit>=1.58.0",
+    "supabase>=2.30.1",
+]
+
+[tool.uv.sources]
+face-recognition-models = { git = "https://github.com/ageitgey/face_recognition_models" }
