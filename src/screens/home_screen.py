@@ -1,8 +1,16 @@
 import streamlit as st
+from src.components.header import header_home
+from src.ui.base_layout import *
 
-def home_screen():
+
+def home_screen(): 
+
+    style_base_layout()
+    style_background_home()
+    header_home()
     
-    st.header("Welcome to the School Management System!")
+
+    st.header("Welcome !")
 
     st.write("Please select your login type to continue.")
 
