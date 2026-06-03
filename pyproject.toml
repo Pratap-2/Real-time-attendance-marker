@@ -1,0 +1,7 @@
+[project]
+name = "ai-intelligence"
+version = "0.1.0"
+description = "making project for my resume"
+readme = "README.md"
+requires-python = "==3.12"
+dependencies = []
